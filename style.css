@@ -10,6 +10,14 @@ body{
     src: url("Fonts/pollerone/pollerone-webfont.ttf") format("truetype");
 }
 
+.font-1{
+    font-family: "leckerlione-regular-webfont.ttf";
+}
+
+.font-2{
+    font-family: "leckerlione-regular-webfont.ttf";
+}
+
 header img{
     display: block;
     margin:  0 auto;
@@ -64,10 +72,6 @@ nav a:hover{
     padding: 1em 2em;
     width: fit-content;
     color: white;
-}
-
-.font-1{
-    font-family: "leckerlione-regular-webfont.ttf";
 }
 
 .btn{
