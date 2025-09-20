@@ -1,3 +1,5 @@
+/* MAIN */
+
 body{
     padding: 0;
     margin: 0;
@@ -16,7 +18,15 @@ body{
 
 .font-2{
     font-family: "leckerlione-regular-webfont.ttf";
+    padding: 1em 2em;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
 }
+
+/* HEADER */
 
 header img{
     display: block;
@@ -43,6 +53,8 @@ nav a:hover{
     color: #0BA39C;
     transition: color 0.3s ease; 
 }
+
+/* HOME */
 
 .hero{
     background-image: url("images/the-beacon.jpg");
@@ -112,6 +124,72 @@ nav a:hover{
 .team h3{
     text-align: center;
 }
+
+/* ABOUT */
+
+
+
+/* GALLERY */
+
+#image-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+#image-grid img{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+/* BLOG */
+
+
+
+/* CONTACT */
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+input, textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em 2em;
+    border: 2px solid black;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+input::placeholder, textarea::placeholder{
+    color: black;
+}
+
+form button{
+    background-color: #222;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #222;
+    cursor: pointer;
+    padding: 1em 2em;
+}
+
+form button:hover{
+    background-color: white;
+    color: #222;
+    transition: background-color 0.3s ease;
+}
+
+/* FOOTER */
 
 footer{
     background-color: #222;
