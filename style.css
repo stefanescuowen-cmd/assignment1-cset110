@@ -1,0 +1,185 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face{
+    font-family: "leckerlione-regular-webfont.ttf";
+    src: url("Fonts/leckerlione/leckerlione-regular-webfont.ttf") format("truetype");
+    src: url("Fonts/pollerone/pollerone-webfont.ttf") format("truetype");
+}
+
+header img{
+    display: block;
+    margin:  0 auto;
+}
+
+nav{
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 15px;
+    font-weight: bolder;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: #0BA39C;
+    transition: color 0.3s ease; 
+}
+
+.hero{
+    background-image: url("images/the-beacon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 300px;
+}
+
+.hero div{
+    width: 50%;
+}
+
+.hero h1{
+    background-color: white;
+    padding: 1em;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.hero p{
+    background-color: #222;
+    padding: 1em 2em;
+    width: fit-content;
+    color: white;
+}
+
+.font-1{
+    font-family: "leckerlione-regular-webfont.ttf";
+}
+
+.btn{
+    display: inline-block;
+    background:#0BA39C;
+    color: white;
+    text-decoration: none;
+    padding: 1em 2em;
+    margin: 0.5em 0;
+    border: 2px #0BA39C solid;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #0BA39C;
+    transition: background-color 0.3s ease; 
+}
+
+.team{
+    padding: 2em 1em 1em;
+}
+
+.team img{
+    border: 2px solid black;
+}
+
+.team ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 45px;
+    margin-left: 450px;
+}
+
+.content-wrap, .team ul {
+    grid-column: 2/4;
+}
+
+.team h3{
+    text-align: center;
+}
+
+footer{
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.icons{
+   display: flex;
+}
+
+#icon-twitter{
+    background-image: url("images/icons/icon-twitter.jpg");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 10px 0 10px;
+}
+
+#icon-facebook{
+    background-image: url("images/icons/icon-facebook.jpg");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease;
+    margin: 0px 10px 0 10px;
+}
+
+#icon-googleplus{
+    background-image: url("images/icons/icon-googleplus.jpg");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease;
+    margin: 0px 10px 0 10px;
+}
+
+#icon-pinterest{
+    background-image: url("images/icons/icon-pinterest.jpg");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease;
+    margin: 0px 10px 0 10px;
+}
+
+/* HOVER */
+
+#icon-twitter:hover{
+    background-image: url("images/icons/icon-twitter-hover.jpg");
+}
+
+#icon-facebook:hover{
+    background-image: url("images/icons/icon-facebook-hover.jpg");
+}
+
+#icon-googleplus:hover{
+    background-image: url("images/icons/icon-googleplus-hover.jpg");
+}
+
+#icon-pinterest:hover{
+    background-image: url("images/icons/icon-pinterest-hover.jpg");
+}
